@@ -14,6 +14,7 @@ import THHB from './Pages/THHB'
 import FN from './Pages/FN'
 import JD from './Pages/JD'
 import NOAH from './Pages/NOAH'
+import WOW from './Pages/wow'
 
 import Footer from './Components/Footer'
 
@@ -39,6 +40,7 @@ function App() {
         <Route path='/FN' element={<FN/>}/>
         <Route path='/JD' element={<JD/>}/>
         <Route path='/NOAH' element={<NOAH/>}/>
+        <Route path='/wow' element={<WOW/>}/>
       </Routes>
     </header>
     <Footer />

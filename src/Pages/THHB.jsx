@@ -45,42 +45,21 @@ function THHB() {
         <div className="sampleImage container-fluid">
             <div className="container">
               <h1>Gallery</h1>
-              <ul>
-                <li>
-                  <img src="/thhb/1.webp" alt="1" />
-                </li>
-                <li>
-                  <img src="/thhb/2.webp" alt="2" />
-                </li>
-                <li>
-                  <img src="/thhb/3.webp" alt="3" />
-                </li>
-                <li>
-                  <img src="/thhb/4.webp" alt="4" />
-                </li>
-                <li>
-                  <img src="/thhb/5.webp" alt="5" />
-                </li>
-                <li>
-                  <img src="/thhb/6.webp" alt="6" />
-                </li>
-                <li>
-                  <img src="/thhb/7.webp" alt="7" />
-                </li>
-                <li>
-                  <img src="/thhb/8.webp" alt="8" />
-                </li>
-                <li>
-                  <img src="/thhb/9.webp" alt="9" />
-                </li>
-                <li>
-                  <img src="/thhb/10.webp" alt="10" />
-                </li>
-                <li>
-                  <img src="/thhb/11.webp" alt="11" />
-                </li>
-                
-              </ul>
+              
+              <div className="gallery-images">
+              <div className="img-box"><img src="/thhb/1.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/2.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/3.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/4.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/5.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/6.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/7.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/8.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/9.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/10.webp" alt="" /></div>
+              <div className="img-box"><img src="/thhb/11.webp" alt="" /></div>
+              <div className="img-box"></div>
+              </div>
             </div>
           </div>
       </div>

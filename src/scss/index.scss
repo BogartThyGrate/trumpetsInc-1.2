@@ -560,23 +560,31 @@ nav{
   }
   .sampleImage {
     order: 3;
-
-    ul {
-      padding: 50px 0;
+    .gallery-images{
       width: 100%;
-      gap: 10px;
-
-      li{
-        padding: 20px 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px !important;
+      .img-box{
+        flex: 1 1 calc(50% - 10px);
+        height: 40vw;
       }
+      img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }  
     }
-    img {
+    
+    
+/*    img {
       height: auto;
       min-width: 200px;
       max-width: 100%;
       object-fit: cover;
       object-position: center;
-    }
+    }*/
   }
 }
 
@@ -736,7 +744,7 @@ nav{
         font-size: 42px !important;
       }
     }
-    .sampleImage {
+   /* .sampleImage {
       grid-column: 1/6;
       grid-row: 2/2;
       width: 100% !important;
@@ -761,6 +769,29 @@ nav{
         width: 95%;
         height: 300px; 
       }
+    }*/
+    .sampleImage {
+      grid-column: 1/6;
+      grid-row: 2/2;
+      
+  
+      .gallery-images{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        .img-box{
+          flex: 1 1 calc(33.33% - 50px);
+          height: 20vw;
+        }
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }  
+      }
+      
     }
   }
 /*license*/
@@ -794,6 +825,7 @@ nav{
     .box1{
       grid-column: 1;
       grid-row: 1;
+
       iframe{
         width: 50vw;
         height: 500px;
@@ -806,6 +838,7 @@ nav{
     }
   }
 }
-
+@media screen and (min-width: 1440px){
+}
 
 //Small desktop to biggest

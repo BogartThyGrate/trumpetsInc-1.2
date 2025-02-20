@@ -33,27 +33,17 @@ function NOAH() {
           <div className="sampleImage container-fluid">
             <div className="container">
               <h1>Gallery</h1>
-              <ul>
-                <li>
-                  <img src="/5/1.png" alt="" />
-                </li>
-                <li>
-                  <img src="/5/2.png" alt="" />
-                </li>
-                <li>
-                  <img src="/5/3.png" alt="" />
-                </li>
-                <li>
-                  <img src="/5/4.png" alt="" />
-                </li>
-                <li>
-                  <img src="/5/5.png" alt="" />
-                </li>
-                <li>
-                  <img src="/5/6.png" alt="" />
-                </li>
-              
-              </ul>
+
+              <div className="gallery-images">
+              <div className="img-box"><img src="/5/1.png" alt="" /></div>
+              <div className="img-box"><img src="/5/2.png" alt="" /></div>
+              <div className="img-box"><img src="/5/3.png" alt="" /></div>
+              <div className="img-box"><img src="/5/4.png" alt="" /></div>
+              <div className="img-box"><img src="/5/5.png" alt="" /></div>
+              <div className="img-box"><img src="/5/6.png" alt="" /></div>
+
+            
+            </div>
             </div>
           </div>
         </div>

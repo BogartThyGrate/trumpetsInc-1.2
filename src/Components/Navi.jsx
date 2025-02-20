@@ -18,8 +18,8 @@ function Navi() {
                        location.pathname.includes("/THHB") ||
                        location.pathname.includes("/FN") ||
                        location.pathname.includes("/JD") ||
-                       location.pathname.includes("/NOAH  ") 
-                       ;
+                       location.pathname.includes("/NOAH") ||
+                       location.pathname.includes("/wow");
 
   return (
     <>

@@ -45,43 +45,28 @@ function JD() {
         </article>
         <div className="showDetailImgContainer">
           <img
-            src="/thumbnail/jtd-opti.webp"
-            alt="jtd-opti"
+            src="/thumbnail/jtdOpti.webp"
+            alt="jtdOpti"
             className="showImg"
           />
         </div>
         <div className="sampleImage container-fluid">
           <div className="container">
             <h1>Gallery</h1>
-            <ul>
-              <li>
-                <img src="/9/1.jpg" alt="" />
-              </li>
-              <li>
-                <img src="/9/2.jpg" alt="" />
-              </li>
-              <li>
-                <img src="/9/3.jpg" alt="" />
-              </li>
-              <li>
-                <img src="/9/4.JPG" alt="" />
-              </li>
-              <li>
-                <img src="/9/5.JPG" alt="" />
-              </li>
-              <li>
-                <img src="/9/6.jpg" alt="" />
-              </li>
-              <li>
-                <img src="/9/7.JPG" alt="" />
-              </li>
-              <li>
-                <img src="/9/8.JPG" alt="" />
-              </li>
-              <li>
-                <img src="/9/9.jpg" alt="" />
-              </li>
-            </ul>
+            <div className="gallery-images">
+              <div className="img-box"><img src="/9/1.jpg" alt="" /></div>
+              <div className="img-box"><img src="/9/2.jpg" alt="" /></div>
+              <div className="img-box"><img src="/9/3.jpg" alt="" /></div>
+              <div className="img-box"><img src="/9/4.JPG" alt="" /></div>
+              <div className="img-box"><img src="/9/5.JPG" alt="" /></div>
+              <div className="img-box"><img src="/9/6.jpg" alt="" /></div>
+              <div className="img-box"><img src="/9/7.JPG" alt="" /></div>
+              <div className="img-box"><img src="/9/8.JPG" alt="" /></div>
+              <div className="img-box"><img src="/9/9.jpg" alt="" /></div>
+
+            
+            </div>
+           
           </div>
         </div>
       </div>

@@ -41,18 +41,11 @@ function Show() {
                     />
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title ">
+                    <h5 className="card-title text-center">
                       The Lion, The witch and the wardrobe
                     </h5>
 
-                    <p className="card-text">
-                      The Lion, The Witch, and The Wardrobe begins when Peter,
-                      Susan, Edmund, and Lucy Pevensie arrive at the country
-                      manor of Professor Digory Kirke, sent there by their
-                      parents to escape the air-raids over London during World
-                      War II.
-                    </p>
-                    <button className="btn fw-normal">View more</button>
+                   
                   </div>
                 </div>
               </NavLink>
@@ -68,16 +61,9 @@ function Show() {
                     />
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title ">Bluebird of hapiness</h5>
+                    <h5 className="card-title text-center">Bluebird of hapiness</h5>
 
-                    <p className="card-text">
-                      This Trumpets adaptation follows the wondrous adventures
-                      of brother and sister, Tyltyl and Mytyl. Discontent and
-                      disappointed by having less in life than their neighbors,
-                      they seek the elusive bluebird of happiness in an attempt
-                      to find the “more” which their hearts desire.
-                    </p>
-                    <button className="btn fw-normal">View more</button>
+                   
                   </div>
                 </div>
               </NavLink>
@@ -93,17 +79,9 @@ function Show() {
                     />
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title ">The horse and his boy</h5>
+                    <h5 className="card-title text-center">The horse and his boy</h5>
 
-                    <p className="card-text">
-                      The Horse and His Boy is the story of an orphan boy,
-                      Shasta, and a talking horse, Bree, as they journey towards
-                      freedom from oppression and slavery. They fly from a
-                      foreign land to Narnia, the place the horse calls home,
-                      and where the boy hopes to find who he is and where he
-                      truly belongs.
-                    </p>
-                    <button className="btn fw-normal">View more</button>
+                  
                   </div>
                 </div>
               </NavLink>
@@ -117,19 +95,13 @@ function Show() {
                 <div className="card mb-3 mb-lg-4 showCard">
                   <div className="imgs">
                     <img
-                      src={`/thumbnail/fn-opti.webp`}
-                      alt={`fn-opti`}
+                      src={`/thumbnail/FN.webp`}
+                      alt={``}
                       className="img"
                     />
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title ">First Name</h5>
-
-                    <p className="card-text">
-                      This new staging of First Name is conceptualized to be a
-                      celebration full of life, radicalism and energy.
-                    </p>
-                    <button className="btn fw-normal">View more</button>
+                    <h5 className="card-title text-center">First Name</h5>
                   </div>
                 </div>
               </NavLink>
@@ -145,13 +117,9 @@ function Show() {
                     />
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title ">Joseph the Dreamer</h5>
+                    <h5 className="card-title text-center">Joseph the Dreamer</h5>
 
-                    <p className="card-text">
-                      Joseph the Dreamer is based on the Biblical story of
-                      Jacob’s son who saves Egypt with the power of his dreams.
-                    </p>
-                    <button className="btn fw-normal">View more</button>
+                
                   </div>
                 </div>
               </NavLink>
@@ -168,18 +136,9 @@ function Show() {
                     />
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title ">The young king</h5>
+                    <h5 className="card-title text-center">The young king</h5>
 
-                    <p className="card-text">
-                      This touching tale by Oscar Wilde is retold in musical
-                      form by Jaime del Mundo and Luna Griño-Inocian with
-                      inspired music by Lito Villareal. Taking the story out of
-                      Wilde’s accustomed melancholy, it is given the feel of a
-                      Walt Disney animated feature through heartwarming
-                      characters, and spirited music without losing its more
-                      moving moments.
-                    </p>
-                    <button className="btn fw-normal">View more</button>
+                    
                   </div>
                 </div>
               </NavLink>
@@ -197,14 +156,9 @@ function Show() {
                     />
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title ">N.O.A.H</h5>
+                    <h5 className="card-title text-center">N.O.A.H</h5>
 
-                    <p className="card-text">
-                      Imagine a world full of garbage… Not that difficult to do,
-                      huh? Well, that’s exactly the kind of world Mr. Noah and
-                      his family live in.
-                    </p>
-                    <button className="btn fw-normal">View more</button>
+              
                   </div>
                 </div>
               </NavLink>
@@ -224,19 +178,37 @@ function Show() {
                     />
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title ">The Little Mermaid</h5>
+                    <h5 className="card-title text-center">The Little Mermaid</h5>
 
-                    <p className="card-text">
-                      This retelling of the classic Hans Christian Andersen
-                      novel shows the meaning of unconditional and everlasting
-                      love, and what one little mermaid is willing to sacrifice,
-                      told through songs, movement, and vibrant storytelling.{" "}
-                    </p>
-                    <button className="btn fw-normal">View more</button>
+                   
                   </div>
                 </div>
             </NavLink>
             </div>{" "}
+            <div className="column">
+              <NavLink 
+               to="/wow"
+               className="card nav-link"
+               activeclassname="active"
+               onClick={closeNavbar}>
+                <div className="card mb-3 mb-lg-4 showCard">
+                  <div className="imgs">
+                    <img
+                      src={`/thumbnail/wow.webp`}
+                      alt={`wow`}
+                      className="img"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title text-center">
+                    Widows, Orphans, and Wildebeests
+                    </h5>
+
+                   
+                  </div>
+                </div>
+              </NavLink>
+            </div>
             {/*Little mermaid */}
             {/*First name*/}
            

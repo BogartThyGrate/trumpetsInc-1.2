@@ -52,41 +52,21 @@ function THB() {
           <div className="sampleImage container-fluid">
             <div className="container">
               <h1>Gallery</h1>
-              <ul>
-                <li>
-                  <img src="/11/1.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/2.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/3.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/4.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/5.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/6.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/7.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/8.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/9.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/10.png" alt="" />
-                </li>
-                <li>
-                  <img src="/11/11.png" alt="" />
-                </li>
-              </ul>
+              <div className="gallery-images">
+              <div className="img-box"><img src="/11/1.png" alt="" /></div>
+              <div className="img-box"><img src="/11/2.png" alt="" /></div>
+              <div className="img-box"><img src="/11/3.png" alt="" /></div>
+              <div className="img-box"><img src="/11/4.png" alt="" /></div>
+              <div className="img-box"><img src="/11/5.png" alt="" /></div>
+              <div className="img-box"><img src="/11/6.png" alt="" /></div>
+              <div className="img-box"><img src="/11/7.png" alt="" /></div>
+              <div className="img-box"><img src="/11/8.png" alt="" /></div>
+              <div className="img-box"><img src="/11/9.png" alt="" /></div>
+              <div className="img-box"><img src="/11/10.png" alt="" /></div>
+              <div className="img-box"><img src="/11/11.png" alt="" /></div>
+              <div className="img-box"></div>
+              
+              </div>
             </div>
           </div>
         </div>

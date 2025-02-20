@@ -3,10 +3,10 @@ import { NavLink, useLocation } from "react-router-dom";
 import Mailform from "../Components/MailForm";
 
 function TLM() {
-   const [isOpen, setIsOpen] = useState(false);
-  
-    // Function to close navbar when clicking a link
-    const closeNavbar = () => setIsOpen(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Function to close navbar when clicking a link
+  const closeNavbar = () => setIsOpen(false);
   return (
     <>
       <main>
@@ -40,6 +40,49 @@ function TLM() {
                 make the greatest sacrifice of all?
               </p>
             </div>
+            <div className="d-flex flex-column flex-lg-row justify-content-start">
+              <div className="characterBox mt-3 w-100">
+                <p className="secondaryTitle">Characters</p>
+                <p>
+                  Jewel <br /> Crustacea <br /> Prince Christian <br /> Prince
+                  Sapphire <br /> Nicodemus
+                  <br /> Calamari <br /> King Argo
+                  <br /> Ensemble
+                </p>
+              </div>
+
+              <div className="characterBox mt-3 w-100">
+                <p className="secondaryTitle">Songs</p>
+                <p>
+                  Hurry Up! Hurry Up! <br />
+                  It’ll Be Fun
+                  <br />
+                  You Plus Me
+                  <br />
+                  Siren Song
+                  <br />
+                  I Am Complete
+                  <br />
+                  Quandary
+                  <br />
+                  Running the Show
+                  <br />
+                  You Can’t Cross Crustacea
+                  <br />
+                  He Brought Me to You
+                  <br />
+                  Death Song
+                  <br />
+                  The Gift
+                  <br />
+                  Silent Song
+                  <br />
+                  Duet for One
+                  <br />
+                  Soul Song
+                </p>
+              </div>
+            </div>
           </article>
           <div className="showDetailImgContainer">
             <img
@@ -51,29 +94,18 @@ function TLM() {
           <div className="sampleImage container-fluid">
             <div className="container">
               <h1>Gallery</h1>
-              <ul>
-                <li>
-                  <img src="/2/1.png" alt="" />
-                </li>
-                <li>
-                  <img src="/2/2.png" alt="" />
-                </li>
-                <li>
-                  <img src="/2/3.png" alt="" />
-                </li>
-                <li>
-                  <img src="/2/4.png" alt="" />
-                </li>
-                <li>
-                  <img src="/2/5.png" alt="" />
-                </li>
-                <li>
-                  <img src="/2/6.png" alt="" />
-                </li>
-                <li>
-                  <img src="/2/7.png" alt="" />
-                </li>
-              </ul>
+              
+              <div className="gallery-images">
+              <div className="img-box"><img src="/2/1.png" alt="" /></div>
+              <div className="img-box"><img src="/2/2.png" alt="" /></div>
+              <div className="img-box"><img src="/2/3.png" alt="" /></div>
+              <div className="img-box"><img src="/2/4.png" alt="" /></div>
+              <div className="img-box"><img src="/2/5.png" alt="" /></div>
+              <div className="img-box"><img src="/2/6.png" alt="" /></div>
+              <div className="img-box"><img src="/2/7.png" alt="" /></div>
+              <div className="img-box"></div>
+              <div className="img-box"></div>
+              </div>
             </div>
           </div>
         </div>
