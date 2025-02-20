@@ -112,7 +112,6 @@ function TLTW() {
           <div className="sampleImage container-fluid">
             <div className="container">
               <h1>Gallery</h1>
-              
               <div className="gallery-images">
               <div className="img-box"><img src="/3/1.png" alt="" /></div>
               <div className="img-box"><img src="/3/2.png" alt="" /></div>
@@ -123,7 +122,7 @@ function TLTW() {
               <div className="img-box"><img src="/3/7.png" alt="" /></div>
               <div className="img-box"><img src="/3/8.png" alt="" /></div>
               <div className="img-box"></div>
-            </div>
+              </div>
             </div>
           </div>
         </div>

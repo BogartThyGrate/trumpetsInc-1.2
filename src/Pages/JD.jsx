@@ -63,10 +63,7 @@ function JD() {
               <div className="img-box"><img src="/9/7.JPG" alt="" /></div>
               <div className="img-box"><img src="/9/8.JPG" alt="" /></div>
               <div className="img-box"><img src="/9/9.jpg" alt="" /></div>
-
-            
             </div>
-           
           </div>
         </div>
       </div>
